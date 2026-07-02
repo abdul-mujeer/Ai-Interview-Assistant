@@ -64,26 +64,11 @@ A professional, full-stack AI-powered interview practice application. Upload you
 - **OpenAI API Key** (get free credits: https://platform.openai.com)
 - **MongoDB Atlas** free account (https://mongodb.com/cloud/atlas)
 
-### 1️⃣ Clone & Setup Environment
 
-```bash
-# Navigate to project
-cd /vercel/share/v0-project
-
-# Create .env.local file
-cat > .env.local << 'EOF'
-OPENAI_API_KEY=sk-proj-your-key-here
-MONGODB_URI=mongodb+srv://user:password@cluster.mongodb.net/?retryWrites=true&w=majority
-NEXT_PUBLIC_API_URL=http://localhost:8000
-EOF
-
-# Copy to backend
-cp .env.local backend/.env
-```
 
 ### 2️⃣ Install Dependencies
 
-```bash
+
 # Frontend
 pnpm install
 
@@ -98,13 +83,11 @@ pip install -r requirements.txt
 
 **Terminal 1 - Frontend (port 3000):**
 ```bash
-cd /vercel/share/v0-project
 pnpm dev
 ```
 
 **Terminal 2 - Backend (port 8000):**
 ```bash
-cd /vercel/share/v0-project/backend
 source venv/bin/activate
 python main.py
 ```
@@ -114,7 +97,6 @@ Then open http://localhost:3000 in your browser!
 ### 4️⃣ Using Docker (Alternative)
 
 ```bash
-cd /vercel/share/v0-project
 
 # Copy env file for Docker
 cp .env.local .env
@@ -177,7 +159,6 @@ cat SETUP_GUIDE.md  # Open in your editor
 ## 📁 Project Structure
 
 ```
-/vercel/share/v0-project/
 ├── app/                                # Next.js pages
 │   ├── page.tsx                       # Home/landing
 │   ├── layout.tsx                     # Root layout
