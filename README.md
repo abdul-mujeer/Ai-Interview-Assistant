@@ -125,7 +125,7 @@ cat SETUP_GUIDE.md  # Open in your editor
 
 ## 🚀 How to Use
 
-### Step 1: Upload Your Resume
+### Step 1: Upload Resume
 - Navigate to http://localhost:3000
 - Click "Start Your Interview Now"
 - Upload your PDF resume (drag & drop or browse)
