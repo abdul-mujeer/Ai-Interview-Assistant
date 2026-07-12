@@ -112,7 +112,7 @@ Access:
 
 ## 📖 Setup Guide Walkthrough
 
-See **`SETUP_GUIDES.md`** for step-by-step instructions on:
+See **`SETUP_GUIDE.md`** for step-by-step instructions on:
 
 1. Getting OpenAI API key
 2. Setting up MongoDB Atlas
